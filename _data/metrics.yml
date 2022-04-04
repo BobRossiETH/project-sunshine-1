@@ -1,0 +1,65 @@
+- title: Consensus Client Diversity
+  id: consensus-client-diversity
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: true
+  default_value: 54.42
+  goal: 45
+  danger: 50
+  target: 33
+  target_date: Jun 2022
+  data_sources: 
+    - migalabs
+    - blockprint
+- title: Execution Client Diversity
+  id: execution-client-diversity
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: true
+  default_value: 85.76
+  goal: 70
+  danger: 50
+  target: 33
+  target_date: Jun 2022
+  data_sources: 
+    - ethernodes
+- title: Data Center Validators
+  id: data-center-validators
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: true
+  default_value: 59.2
+  goal: 40
+  danger: 80
+  target: 50
+  target_date: Jun 2022
+  data_sources: 
+    - nodewatch
+- title: Government Entity Stake Weight
+  id: government-entity
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: true
+  default_value: 4
+  goal: 5
+  danger: 20
+  target: 5
+  target_date: 
+  data_sources: 
+- title: Largest Entity Stake Weight
+  id: largest-entity
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: true
+  default_value: 4
+  goal: 5
+  danger: 20
+  target: 5
+  target_date: 
+  data_sources: 
+- title: Geolocation Diversity
+  id: geolocation-civersity
+  tooltip_text: some tooltip text explaining what this metric is
+  tooltip_enabled: false
+  default_value: 45
+  goal: 33
+  danger: 66
+  target: 38
+  target_date: Jun 2022
+  data_sources: 
+

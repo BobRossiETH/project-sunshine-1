@@ -1,0 +1,138 @@
+body {
+  position: relative;
+  background-image: linear-gradient(140deg, #a6fcf5 0%, #cfbff9 50%, #cbaeff 75%);
+  overflow-x: hidden;
+}
+#sun {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  left: 0;
+  top: 0;
+  background-image: radial-gradient(closest-side at 55% 50%, rgba(255,165,0,1), rgba(255,255,0,0.8), transparent);
+  transform: translate(-85%, -85%);
+  transition: 3s ease;
+}
+#clouds {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(153,153,153,0.7);
+  transition: 3s ease;
+}
+.content {
+  z-index: 1;
+}
+
+
+.bg-eth {
+  background-color: rgba(255,255,255,0.3);
+}
+.bg-eth-silver {
+  background-color: #b7d0f8;
+}
+.bg-eth-violet {
+  background-color: #cfbff9;
+}
+.bg-eth-blue {
+  background-color: #82a6f7;
+}
+.bg-eth-cyan {
+  background-color: #a6fcf5;
+}
+.bg-eth-lavendar {
+  background-color: #cbaeff;
+}
+
+.text-trans {
+  color: rgba(0,0,0,0.7);
+}
+.border-trans {
+  border-color: rgba(0,0,0,0.1) !important;
+}
+
+
+
+.card {
+  border-radius: 0.6rem;
+}
+.card-title {
+  margin-right: -20px;
+}
+
+
+select {
+  margin-top: -5px;
+  background-color: rgba(255,255,255,0.3) !important;
+  border-radius: 0.3rem !important;
+  border-color: rgba(190, 190, 190, 0.5) !important;  
+}
+.form-label {
+  margin-bottom: 0.25rem;
+  margin-top: 0.45rem;
+}
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+  transform: scale(.75) translateY(1.5rem) translateX(0rem);
+}
+.form-floating>label {
+  margin-right: -55px;
+  margin-left: -7px;
+  text-align: center;
+}
+.form-floating>label span {
+  margin: auto 0;
+}
+.form-floating>.form-select {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.form-floating>.form-control,
+.form-floating>.form-select {
+  height: auto;
+  line-height: inherit;
+}
+
+
+.progress {
+  background-color: rgba(255,255,255,0.5);
+}
+.progress .bg-warning {
+  color: #333;
+}
+.bg-success,
+.bg-warning,
+.bg-danger {
+  --bs-bg-opacity: 0.85;
+}
+.bg-trans {
+  background-color: transparent;
+}
+.progress-success {
+  background-image: linear-gradient(45deg,rgba(25,135,84,.15) 25%,transparent 25%,transparent 50%,rgba(25,135,84,.15) 50%,rgba(25,135,84,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
+}
+.progress-warning {
+  background-image: linear-gradient(45deg,rgba(255,193,7,.15) 25%,transparent 25%,transparent 50%,rgba(255,193,7,.15) 50%,rgba(255,193,7,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
+}
+.progress-danger {
+  background-image: linear-gradient(45deg,rgba(220,53,69,.15) 25%,transparent 25%,transparent 50%,rgba(220,53,69,.15) 50%,rgba(220,53,69,.15) 75%,transparent 75%,transparent);
+  background-size: 1rem 1rem;
+}
+
+
+.btn {
+  background-color: rgba(255,255,255,0.3) !important;
+  border-color: rgba(190, 190, 190, 0.5) !important;
+}
+
+
+
+
+
+
+
